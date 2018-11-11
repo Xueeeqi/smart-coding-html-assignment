@@ -1,0 +1,261 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background: #F7F7F7;
+}
+
+.header {
+  background-image: url(./Images/unsplash1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  background-position: center center;
+}
+
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+}
+
+.intro {
+  align-self: center;
+  padding:60px;
+}
+
+.intro p {
+  color:lightblue;
+  text-align: center;
+  line-height: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.intro img {
+    display: block; 
+    margin-top: 50px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 200px;
+    border-radius: 50%;
+}
+
+.facts {
+  margin: 20px auto;
+  align-self: center;
+  padding: 20px 200px 20px 200px;
+  overflow: auto;
+}
+
+@media (max-width: 450px) {
+  .facts {
+  align-self: center;
+  padding: 60px;
+  }
+}
+
+.spectrum {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.spectrum div {
+  font: inherit;
+  width: 75%;
+  margin: 0 auto;
+  padding: 0 20px;
+  color: #fff;
+  overflow: auto;
+  opacity: 0.9;
+}
+
+@media (max-width: 450px) {
+  .spectrum div {
+    overflow: visible;
+    padding-bottom: 30px;
+  }
+}
+
+.spectrum img {
+    float: left;
+    margin: 30px 40px 30px 10px;
+    height: 200px;
+    transition: transform .5s ease-in-out;
+}
+
+@media (max-width: 450px) {
+  .spectrum img {
+    display: block;
+    float: none;
+    margin: 20px auto;
+    width: 100px;
+    height:auto;
+  }
+}
+
+.spectrum img:hover {
+    transform: scale(1.1); 
+}
+
+.spectrum p {
+  color: #fff;
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 450px) {
+  .spectrum p {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .facts h3 {
+    display: block;
+    text-align: center;
+  }
+}
+
+.childhood {
+	background-color: DarkSeaGreen;
+}
+
+.bachelor {
+	background-color: rosybrown;
+}
+
+.master {
+	background-color: Peru;
+}
+
+.internship {
+	background-color: Brown;
+}
+
+.work {
+	background-color: SaddleBrown;
+}
+
+.hobbiesandinterests {
+  margin-left:40px;
+  margin-bottom: 50px;
+  align-self: center;
+  padding: 20px 100px 20px 100px;
+  overflow: auto;
+  align-self: center;
+}
+
+@media (max-width: 450px) {
+  .hobbiesandinterests {
+    margin:auto;
+  }
+}
+
+.gallery {
+  float: left;
+  width: 250px;
+  overflow: auto;
+}
+
+.gallery img {
+  width: 250px;
+  height:250px;
+  transition: transform .5s ease-in-out;
+}
+
+@media (max-width: 450px) {
+  .gallery img {
+    float: none;
+    width: 200px;
+    height:auto;
+  }
+}
+
+.gallery img:hover { 
+  opacity: 0.8; 
+  transform: scale(1.1); 
+}
+
+
+.footer { 
+  background: #000;
+  height: 60px; 
+  padding-bottom: 50px;
+}
+
+.footer p { 
+  text-align:center;
+  color: #fff;
+  font-size: 14px;  
+  height: 80px; 
+  line-height: 80px;
+  margin: 0;  
+}
+
+ul {
+  padding-bottom: 20px;
+}
+
+li {
+  color: #fff;
+  line-height: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  text-align: left;
+}
+
+p {
+  color: #444444;
+  line-height: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+}
+
+h1 {
+  color: black;
+  background-color: white;
+  opacity: .8;
+  padding: 15px 10px 15px 10px;
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 80px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 35%;
+}
+
+h2 {
+  color: #E4BB97;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #E4BB97;
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
